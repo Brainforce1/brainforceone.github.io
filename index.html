@@ -5,7 +5,7 @@
   <meta charset='UTF-8'>
   <title>brainforce.one</title>
   <meta name="robots" content="noindex">
-  <meta name="description" content="brainforce.one dotnet consultancy">
+  <meta name="description" content="brainforce.one dotnet consultancy petconnect">
   <meta name="keywords" content="C#, csharp, development, dotnet, consultancy, invoicing">
   <meta name="author" content="brainforce.one">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,14 +43,6 @@
       background-image: url('adrien-invert.jpg');
 	  mix-blend-mode: color-burn;
     }
-    .content2 {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
 
     .footer {
       padding: 10px;
@@ -62,15 +54,29 @@ h1 {
   color: #131313;
   mix-blend-mode: inherit;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  font-size: 200px;
+  font-size: 100px;
   line-height: 1em;
   margin: 0;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   width: 100%;
   text-shadow: 0 1px 0 #b5a8a8, 0 2px 0 #b1a2a2, 0 3px 0 #ac9d9d, 0 4px 0 #a79797, 0 5px 0 #a39292, 0 6px 0 #9e8c8c, 0 7px 0 #998787, 0 8px 0 #958181, 0 0 5px rgba(194, 145, 145, 0.05), 0 -1px 3px rgba(194, 145, 145, 0.2), 0 9px 9px rgba(194, 145, 145, 0.3), 0 12px 12px rgba(194, 145, 145, 0.3), 0 15px 15px rgba(194, 145, 145, 0.3);
+}
+
+.developer {
+  position: absolute;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 30px;
+  top: 45%;
+}
+.petconnect {
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  z-index: 999;
 }
 #blur-bg:hover ~ .content
 {
@@ -127,15 +133,15 @@ h2 {
 </head>
 
 <body class='page'>
-  <div id="blur-bg"></div>
+
   <div class="content">
     <h1 class='elegantshadow'>brainforce.one</h1>
+    <p class='developer'>proud investor of</p>
+    <a class='petconnect' href="https://petconnect.social"><img src="https://petconnect.social/wp-content/uploads/2024/04/cropped-cropped-PETCONNECT-LOGO.png" alt="PetConnect Trusted Dog Sitters" style="width:500px;" /></a>
   </div>
-	<div class="content2">
-		<img src="https://petconnect.social/wp-content/uploads/2024/04/cropped-cropped-PETCONNECT-LOGO.png" alt="PetConnect Trusted Dog Sitters" style="width:500px;" />
-	</div>
+
   <footer class="footer">
-    <p>©2024 brainforce.one</p>
+    <p><b>©2024 brainforce.one</b></p>
   </footer>
 </body>
 
